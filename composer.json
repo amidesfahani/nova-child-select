@@ -1,5 +1,5 @@
 {
-    "name": "alvinhu/nova-child-select",
+    "name": "amidesfahani/nova-child-select",
     "description": "Laravel nova child field.",
     "keywords": [
         "laravel",
@@ -12,13 +12,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Alvinhu\\ChildSelect\\": "src/"
+            "Amidesfahani\\ChildSelect\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Alvinhu\\ChildSelect\\FieldServiceProvider"
+                "Amidesfahani\\ChildSelect\\FieldServiceProvider"
             ]
         }
     },
