@@ -2,6 +2,8 @@
 
 This field allows you to dynamically fill options of the select based on value in parent select field.
 
+Works with Nova Tabs!
+
 Field is based on [nova-ajax-select](https://github.com/dillingham/nova-ajax-select).
 But instead of providing api endpoint, you can fill options by a closure function.
 
@@ -9,7 +11,7 @@ But instead of providing api endpoint, you can fill options by a closure functio
 
 ### Install
 ```
-composer require alvinhu/nova-child-select
+composer require amidesfahani/nova-child-select
 ```
 
 ### Usage
@@ -21,7 +23,7 @@ Class have 2 special methods on top of default Select from Laravel Nova.
 ### Example
 
 ```
-use Alvinhu\ChildSelect\ChildSelect;
+use Amidesfahani\ChildSelect\ChildSelect;
 
 public function fields(Request $request)
     {
@@ -47,3 +49,7 @@ public function fields(Request $request)
     }
 
 ```
+
+
+
+Forked from https://github.com/alvinhu/nova-child-select
