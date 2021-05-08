@@ -1,6 +1,6 @@
 <?php
 
-namespace Alvinhu\ChildSelect;
+namespace Amid\ChildSelect;
 
 use Illuminate\Routing\Controller;
 use Laravel\Nova\Http\Requests\NovaRequest;

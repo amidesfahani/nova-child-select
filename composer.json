@@ -12,13 +12,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Amidesfahani\\ChildSelect\\": "src/"
+            "Amid\\ChildSelect\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Amidesfahani\\ChildSelect\\FieldServiceProvider"
+                "Amid\\ChildSelect\\FieldServiceProvider"
             ]
         }
     },

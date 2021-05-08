@@ -1,6 +1,6 @@
 <?php
 
-namespace Alvinhu\ChildSelect;
+namespace Amid\ChildSelect;
 
 use Laravel\Nova\Fields\Field;
 

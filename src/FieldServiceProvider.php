@@ -1,6 +1,6 @@
 <?php
 
-namespace Alvinhu\ChildSelect;
+namespace Amid\ChildSelect;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
@@ -29,7 +29,7 @@ class FieldServiceProvider extends ServiceProvider
 
         Route::middleware(['nova'])
             ->prefix('nova-vendor/child-select')
-            ->namespace('Alvinhu\ChildSelect')
+            ->namespace('Amid\ChildSelect')
             ->group(__DIR__.'/../routes/api.php');
     }
 
