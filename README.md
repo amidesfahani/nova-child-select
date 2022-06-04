@@ -50,6 +50,8 @@ public function fields(Request $request)
 
 ```
 
+## Forked
+https://github.com/alvinhu/nova-child-select
 
-
-Forked from https://github.com/alvinhu/nova-child-select
+## Licence
+This package is [Treeware](https://treeware.earth). If you use it in production, then we ask that you [**buy the world a tree**](https://plant.treeware.earth/https://github.com/amidesfahani/nova-child-select) to thank us for our work. By contributing to the Treeware forest you’ll be creating employment for local families and restoring wildlife habitats.
